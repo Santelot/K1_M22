@@ -459,7 +459,7 @@
         });
 
         // Renderizar los pasos dinámicamente en las tablas de actividades 5, 6 y 7
-        renderActivitySteps("activity-5-content", steps[level]["5." + (level === "K1" ? 1 : level === "K2" ? 2 : 3)], time);
+        javascript renderActivitySteps("activity-5-content", steps[level][`5.${level === "K1" ? 1 : level === "K2" ? 2 : 3}`], time);
         renderActivitySteps("activity-6-content", steps[level]["6"], time);
         renderActivitySteps("activity-7-content", steps[level]["7"], time);
 
